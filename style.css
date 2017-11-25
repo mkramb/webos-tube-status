@@ -1,0 +1,23 @@
+body {
+  background: black;
+  font-family: Helvetica;
+  letter-spacing: 0.15em;
+  color: white;
+  margin: 0 auto;
+}
+
+.status-list {
+  width: 100%;
+  padding: 10%;
+}
+
+.status-item {
+  font-weight: 300;
+  list-style: none;
+}
+
+.status-item span:first-child {
+  display: inline-block;
+  min-width: 160px;
+  padding-bottom: 1em;
+}
